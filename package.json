@@ -1,26 +1,30 @@
 {
-  "name": "bitandbang",
-  "version": "1.1.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
-  "main": "index.js",
+  "name": "oocx",
+  "version": "1.0.0",
+  "description": "A personal card for Mathias Raacke (@oocx)",
+  "main": "bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "oocx": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/oocx/card.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/card.js",
+    "test": "jasmine tests.js"
   },
   "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Mathias Raaacke <mathias@raacke.info> (https://github.com/oocx)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1"
   },
   "devDependencies": {
-    "standard": "^12.0.1"
+    "@types/jasmine": "^3.3.4",
+    "semantic-release": "^15.13.1",
+    "standard": "^12.0.1",
+    "jasmine": "^3.3.1"
   }
 }
