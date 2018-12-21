@@ -21,5 +21,5 @@ steps:
   displayName: 'run unit tests'
 
 - script: |
-    ../../node_modules/.bin/semantic-release
+    semantic-release
   displayName: 'publish package'
