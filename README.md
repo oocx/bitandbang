@@ -1,9 +1,7 @@
-It's me, Tierney!
+My own npx card, inspired by https://github.com/bnb/bitandbang
 
 # Usage
 Via npx:
 ```
-npx bitandbang
+npx oocx
 ```
-
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
